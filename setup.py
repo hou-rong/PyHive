@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from setuptools import setup
+from distutils.core import setup
 from setuptools.command.test import test as TestCommand
 import pyhive
 import sys
@@ -22,7 +22,7 @@ with open('README.rst') as readme:
     long_description = readme.read()
 
 setup(
-    name="PyHive",
+    name="PyHive-Hack",
     version=pyhive.__version__,
     description="Python interface to Hive",
     long_description=long_description,
